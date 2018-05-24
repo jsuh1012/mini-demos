@@ -46,7 +46,7 @@ for (c in 1:ncol(genre_matrix)) {
 } 
 
 # Create search matrix
-
+search_matrix <- cbind(movies)
 
 # Create ratings matrix. Rows = userId, Columns = movieId
 

@@ -14,13 +14,13 @@ library(ggplot2)
 # Use the get_sentiments() function to get your dictionary of positive
 # and negative words. Use the lexicon which categorizes words into
 # positive and negative.
-
+bing_sentimenets <- get_sentiments()
 
 
 
 ##### DATA ANALYSIS + WRANGLING #####
 # Read books data in 
-
+book_data <- read.csv()
 
 
 
@@ -48,7 +48,9 @@ library(ggplot2)
 
 ##### CREATE OUR VISUALIZATION #####
 # Use ggplot to plot each chapter's sentiment by book.
-
+ggplot() +
+  geom_bar() +
+  facet_wrap()
 
 
 
